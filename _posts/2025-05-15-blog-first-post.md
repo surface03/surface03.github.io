@@ -7,7 +7,7 @@ categories: [Blogging]
 tags: [Blogging]
 # toc: false
 # comments: false
-media_subpath: /assets/posts/2025-05-13-blog-first-post/
+media_subpath: /assets/posts/2025-05-15-blog-first-post/
 math: true
 mermaid: true
 image:
@@ -15,6 +15,17 @@ image:
   lqip: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAANABQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDbJ2gAAH2NAbJwQB9DTQdyjIBo4HIUCuK5utUDAE8YoqInLGio5rFch//Z
   alt: Hello World!
 ---
+
+
+Github로 개인 블로그를 개설했다!
+
+앞으로 개인적으로 공부한 내용과 아카이빙하고 싶은 정보, 다양한 생각을 이곳에 포스팅하려고 한다.
+
+---
+
+
+여기서부터는 블로그에 이미지, 비디오, 수식 등이 잘 랜더링 되는지 확인하기 위한 테스트 내용들이다.
+
 
 ## Headings
 
