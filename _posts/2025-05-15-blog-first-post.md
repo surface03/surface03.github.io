@@ -7,6 +7,8 @@ categories: [Blogging]
 tags: [Blogging]
 # toc: false
 # comments: false
+# pin: true
+# render_with_liquid: false
 media_subpath: /assets/posts/2025-05-15-blog-first-post/
 math: true
 mermaid: true
@@ -25,6 +27,7 @@ Github로 개인 블로그를 개설했다!
 
 
 여기서부터는 블로그에 이미지, 비디오, 수식 등이 잘 랜더링 되는지 확인하기 위한 테스트 내용들이다.
+[이 포스팅](https://chirpy.cotes.page/posts/text-and-typography/)에서 대부분의 내용들을 가져왔다.
 
 
 ## Headings
@@ -132,12 +135,23 @@ This is a common code snippet, without syntax highlight and line number.
 
 ### Specific Language
 
+#### With line numbers
+
 ```bash
 if [ $? -ne 0 ]; then
   echo "The command was not successful.";
   #do the needful / exit
 fi;
 ```
+
+#### Without line numbers
+```bash
+if [ $? -ne 0 ]; then
+  echo "The command was not successful.";
+  #do the needful / exit
+fi;
+```
+{: .nolineno }
 
 ### Specific filename
 
@@ -179,33 +193,71 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 ### Default (with caption)
 
+<!-- width="" height="" lqip="/path/to/lqip-file" -->
 ![Desktop View](sample_image.png){: width="972" height="589" }
 _Full screen width and center alignment_
 
 ### Left aligned
 
-![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" .w-75 .normal}
+![Desktop View](sample_image.png){: width="972" height="589" .w-75 .normal}
 
 ### Float to left
 
-![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" .w-50 .left}
+![Desktop View](sample_image.png){: width="972" height="589" .w-50 .left}
 Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecenas pharetra, sem sit amet interdum posuere, tellus lacus eleifend magna, ac lobortis felis ipsum id sapien. Proin ornare rutrum metus, ac convallis diam volutpat sit amet. Phasellus volutpat, elit sit amet tincidunt mollis, felis mi scelerisque mauris, ut facilisis leo magna accumsan sapien. In rutrum vehicula nisl eget tempor. Nullam maximus ullamcorper libero non maximus. Integer ultricies velit id convallis varius. Praesent eu nisl eu urna finibus ultrices id nec ex. Mauris ac mattis quam. Fusce aliquam est nec sapien bibendum, vitae malesuada ligula condimentum.
 
 ### Float to right
 
-![Desktop View](/posts/20190808/mockup.png){: width="972" height="589" .w-50 .right}
+![Desktop View](sample_image.png){: width="972" height="589" .w-50 .right}
 Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecenas pharetra, sem sit amet interdum posuere, tellus lacus eleifend magna, ac lobortis felis ipsum id sapien. Proin ornare rutrum metus, ac convallis diam volutpat sit amet. Phasellus volutpat, elit sit amet tincidunt mollis, felis mi scelerisque mauris, ut facilisis leo magna accumsan sapien. In rutrum vehicula nisl eget tempor. Nullam maximus ullamcorper libero non maximus. Integer ultricies velit id convallis varius. Praesent eu nisl eu urna finibus ultrices id nec ex. Mauris ac mattis quam. Fusce aliquam est nec sapien bibendum, vitae malesuada ligula condimentum.
 
 ### Dark/Light mode & Shadow
 
 The image below will toggle dark/light mode based on theme preference, notice it has shadows.
 
-![light mode only](/posts/20190808/devtools-light.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
-![dark mode only](/posts/20190808/devtools-dark.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
+![light mode only](light_mode.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
+![dark mode only](dark_mode.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
 
 ## Video
 
+<!--
+{%
+  include embed/video.html
+  src='/path/to/video.mp4'
+  types='ogg|mov'
+  poster='poster.png'
+  title='Demo video'
+  autoplay=true
+  loop=true
+  muted=true
+%}
+-->
+{%
+  include embed/video.html
+  src='sample_capybara.mp4'
+  title='Example Video'
+%}
+
+## Video (Embed)
+
+<!-- include embed/{Platform}.html id='{ID}' -->
 {% include embed/youtube.html id='Balreaj8Yqs' %}
+
+## Audio
+
+<!--
+{%
+  include embed/audio.html
+  src='/path/to/audio.mp3'
+  types='ogg|wav|aac'
+  title='Demo audio'
+%}
+-->
+{%
+  include embed/audio.html
+  src='sample_audio.mp3'
+  title='Example Audio'
+%}
 
 ## Reverse Footnote
 
