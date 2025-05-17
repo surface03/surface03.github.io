@@ -1,0 +1,16 @@
+name: Typo Check
+
+on:
+  push:
+
+jobs:
+  check-typo:
+    name: Check for typos
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Run typos checker
+        uses: crate-ci/typos@v1.22.8
+        with:
+          config: ./_typos.toml
