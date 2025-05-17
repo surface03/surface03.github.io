@@ -16,3 +16,4 @@ extend-exclude = [
 "CNAME" = "CNAME"
 "dotenv" = "dotenv"
 "firebase" = "firebase"
+"varius" = "varius"
