@@ -1,0 +1,18 @@
+[default]
+
+[files]
+extend-exclude = [
+  "_includes/**/*",
+  "assets/**/*",
+  "**/*.js",
+  "**/*.html",
+  "**/*.yaml",
+  "**/*.yml",
+  "**/*.xml",
+]
+
+[default.extend-words]
+"AWS" = "AWS"
+"CNAME" = "CNAME"
+"dotenv" = "dotenv"
+"firebase" = "firebase"
