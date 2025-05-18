@@ -12,7 +12,7 @@
 
 $my-spacer-unit: 1rem !default;
 
-$my-spacer-max: 10 !default;
+$my-spacer-max: 15 !default;
 
 @for $i from 1 through $my-spacer-max {
   .my-spacer-#{$i} {
