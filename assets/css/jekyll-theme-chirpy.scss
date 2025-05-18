@@ -1,0 +1,22 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+$spacer-unit: 1rem !default;
+
+$spacer-max: 15 !default;
+
+@for $i from 1 through $spacer-max {
+  .spacer-#{$i} {
+    margin-top:   $i * $spacer-unit;
+    margin-bottom:$i * $spacer-unit;
+  }
+}
