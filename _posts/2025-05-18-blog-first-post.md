@@ -22,7 +22,12 @@ image:
 Github로 개인 블로그를 개설했다!
 
 앞으로 개인적으로 공부한 내용과 아카이빙하고 싶은 정보, 다양한 생각을 이곳에 포스팅하려고 한다.
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 ---
 
 
@@ -111,7 +116,7 @@ Moon
 
 ## Links
 
-<http://127.0.0.1:4000>
+<https://www.google.com/>
 
 ## Footnote
 
@@ -242,7 +247,7 @@ The image below will toggle dark/light mode based on theme preference, notice it
 ![light mode only](light_mode.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
 ![dark mode only](dark_mode.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
 
-## Video
+## Videos
 
 <!--
 {%
@@ -256,10 +261,16 @@ The image below will toggle dark/light mode based on theme preference, notice it
   muted=true
 %}
 -->
+
 {%
   include embed/video.html
   src='sample_capybara.mp4'
+  types='ogg|mov'
+  poster='poster.png'
   title='Example Video'
+  autoplay=false
+  loop=false
+  muted=true
 %}
 
 ## Video (Embed)
