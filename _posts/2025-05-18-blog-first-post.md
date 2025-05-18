@@ -266,7 +266,6 @@ The image below will toggle dark/light mode based on theme preference, notice it
 {%
   include embed/video.html
   src='sample_capybara.mp4'
-  types='ogg|mov'
   poster='poster.png'
   title='Example Video'
   autoplay=false
