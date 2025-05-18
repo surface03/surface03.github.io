@@ -22,13 +22,15 @@ image:
 Github로 개인 블로그를 개설했다!
 
 앞으로 개인적으로 공부한 내용과 아카이빙하고 싶은 정보, 다양한 생각을 이곳에 포스팅하려고 한다.
-
-<div class="my-spacer-11"></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 ---
-
-<div class="my-spacer-3"></div>
 
 여기서부터는 블로그에 이미지, 비디오, 수식 등이 잘 랜더링 되는지 확인하기 위한 테스트 내용들이다.
 [Chirpy 예시 포스팅](https://chirpy.cotes.page/posts/text-and-typography/)에서 대부분의 내용들을 가져왔다.
