@@ -2,14 +2,14 @@
 title: 블로그 개설!
 description: 블로그 첫 포스팅
 author: gihyunkim
-date: 2025-05-13 02:49:00 +0900
+date: 2025-05-18 14:49:00 +0900
 categories: [Blogging]
 tags: [Blogging]
 # toc: false
 # comments: false
 # pin: true
 # render_with_liquid: false
-media_subpath: /assets/posts/2025-05-15-blog-first-post/
+media_subpath: /assets/posts/2025-05-18-blog-first-post/
 math: true
 mermaid: true
 image:
@@ -27,7 +27,7 @@ Github로 개인 블로그를 개설했다!
 
 
 여기서부터는 블로그에 이미지, 비디오, 수식 등이 잘 랜더링 되는지 확인하기 위한 테스트 내용들이다.
-[이 포스팅](https://chirpy.cotes.page/posts/text-and-typography/)에서 대부분의 내용들을 가져왔다.
+[Chirpy 예시 포스팅](https://chirpy.cotes.page/posts/text-and-typography/)에서 대부분의 내용들을 가져왔다.
 
 
 ## Headings
@@ -155,29 +155,53 @@ fi;
 
 ### Specific filename
 
-```sass
-@import
-  "colors/light-typography",
-  "colors/dark-typography";
+```cpp
+#include <iostream>
+int main() {
+    std::cout << "Hello, world!" << std::endl;
+    return 0;
+}
 ```
-{: file='_sass/jekyll-theme-chirpy.scss'}
+{: file='example_hello_world.cpp'}
+
+### Liquid Codes display
+
+{% raw %}
+```liquid
+{% if product.title contains 'Pack' %}
+  This product's title contains the word Pack.
+{% endif %}
+```
+{% endraw %}
 
 ## Mathematics
 
 The mathematics powered by [**MathJax**](https://www.mathjax.org/):
 
 $$
+e^{i\phi} + 1 = 0
+$$
+
+$$
 \begin{equation}
   \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6}
-  \label{eq:series}
+  \label{eq:example_label_here}
 \end{equation}
 $$
 
-We can reference the equation as \eqref{eq:series}.
+We can reference the equation as \eqref{eq:example_label_here}.
 
 When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
 
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
+
+Example inline math
+
+1. \$$ \nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0} $$
+2. \$$ \nabla \cdot \mathbf{B} = 0 $$
+3. \$$ \nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t} $$
+4. \$$ \nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \frac{\partial \mathbf{E}}{\partial t} $$
 
 ## Mermaid SVG
 
