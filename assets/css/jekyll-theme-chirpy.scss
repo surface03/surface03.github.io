@@ -10,13 +10,13 @@
 
 /* append your custom style below */
 
-$spacer-unit: 1rem !default;
+$my-spacer-unit: 1rem !default;
 
-$spacer-max: 15 !default;
+$my-spacer-max: 10 !default;
 
-@for $i from 1 through $spacer-max {
-  .spacer-#{$i} {
-    margin-top:   $i * $spacer-unit;
-    margin-bottom:$i * $spacer-unit;
+@for $i from 1 through $my-spacer-max {
+  .my-spacer-#{$i} {
+    margin-top:   $i * $my-spacer-unit;
+    margin-bottom:$i * $my-spacer-unit;
   }
 }
