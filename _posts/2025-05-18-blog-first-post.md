@@ -5,10 +5,6 @@ author: gihyunkim
 date: 2025-05-18 14:49:00 +0900
 categories: [Blogging]
 tags: [Blogging]
-# toc: false
-# comments: false
-# pin: true
-# render_with_liquid: false
 media_subpath: /assets/posts/2025-05-18-blog-first-post/
 math: true
 mermaid: true
@@ -221,7 +217,6 @@ Example inline math
 
 ### Default (with caption)
 
-<!-- width="" height="" lqip="/path/to/lqip-file" -->
 ![Desktop View](sample_image.png){: width="972" height="589" }
 _Full screen width and center alignment_
 
@@ -248,19 +243,6 @@ The image below will toggle dark/light mode based on theme preference, notice it
 
 ## Videos
 
-<!--
-{%
-  include embed/video.html
-  src='/path/to/video.mp4'
-  types='ogg|mov'
-  poster='poster.png'
-  title='Demo video'
-  autoplay=true
-  loop=true
-  muted=true
-%}
--->
-
 {%
   include embed/video.html
   src='sample_capybara.mp4'
@@ -273,19 +255,10 @@ The image below will toggle dark/light mode based on theme preference, notice it
 
 ## Video (Embed)
 
-<!-- include embed/{Platform}.html id='{ID}' -->
 {% include embed/youtube.html id='Balreaj8Yqs' %}
 
 ## Audio
 
-<!--
-{%
-  include embed/audio.html
-  src='/path/to/audio.mp3'
-  types='ogg|wav|aac'
-  title='Demo audio'
-%}
--->
 {%
   include embed/audio.html
   src='sample_audio.mp3'
