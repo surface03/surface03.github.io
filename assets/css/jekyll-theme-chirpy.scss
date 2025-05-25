@@ -25,3 +25,17 @@ img.solved-tier {
   height: 1em;
   vertical-align: -0.15em;
 }
+
+.post-content img.solved-tier {
+  display: inline-block !important;
+  margin: 0 !important;
+}
+
+.post-content img.solved-tier + img.solved-tier {
+  margin-left: 0.3em;
+}
+
+.math-left mjx-container[display="block"] {
+  text-align: left !important;
+  margin-left: 0 !important;
+}
