@@ -21,16 +21,14 @@ $my-spacer-max: 15 !default;
   }
 }
 
-img.solved-tier {
-  height: 1em;
-  vertical-align: -0.15em;
+.tier-icon img {
+  display: inline-block;      /* 인라인 요소로 */
+  margin: 0;
+  height: 1em;                /* 글자 크기와 맞춤 */
+  vertical-align: -0.15em;    /* 베이스라인 보정 */
 }
 
-.post-content img.solved-tier {
-  display: inline-block !important;
-  margin: 0 !important;
-}
-
-.post-content img.solved-tier + img.solved-tier {
+/* 아이콘이 연달아 붙을 때 약간의 간격 (선택) */
+.tier-icon + .tier-icon {
   margin-left: 0.3em;
 }

@@ -1,7 +1,8 @@
-{% assign code = include.code | upcase %}
-{% assign num  = site.data.solved_tiers[code] | default: 0 %}
-<img
-  src="https://static.solved.ac/tier_small/{{ num }}.svg"
-  alt="{{ code }} tier"
-  class="solved-tier"
-/>
+{%- assign code = include.code | upcase -%}
+{%- assign num  = site.data.solved_tiers[code] | default: 0 -%}
+
+<span class="tier-icon">
+  <img src="https://static.solved.ac/tier_small/{{ num }}.svg"
+       alt="{{ code }} tier"
+       width="14" height="14">
+</span>
