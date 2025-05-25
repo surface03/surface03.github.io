@@ -20,3 +20,8 @@ $my-spacer-max: 15 !default;
     margin-bottom:$i * $my-spacer-unit;
   }
 }
+
+img.solved-tier {
+  height: 1em;
+  vertical-align: -0.15em;
+}
