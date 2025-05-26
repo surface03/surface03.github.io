@@ -20,3 +20,14 @@ $my-spacer-max: 15 !default;
     margin-bottom:$i * $my-spacer-unit;
   }
 }
+
+span.solved-tier {
+  display: inline-block;
+  height: 1em;
+  width: 0.80em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: -0.15em;
+  margin: 0 0.03em;
+}
